@@ -1,0 +1,13 @@
+body, *{
+    font-family: "Lato", sans-serif;
+}
+.navbar nav .logo-text{
+    font-family: "Protest Revolution", sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    font-size:30px;
+}
+.active{
+    text-decoration: underline;
+    color:blue;
+}

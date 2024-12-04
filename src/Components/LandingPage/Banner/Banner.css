@@ -1,0 +1,48 @@
+/* Customizing the container */
+.carousel {
+    max-width: 100%; /* Adjust the width */
+    max-height: 100vh;
+}
+ 
+/* Customizing slides */
+.carousel .slide {
+background-color: #f0f0f0; /* Change slide background */
+border-radius: 10px; /* Add rounded corners */
+}
+
+/* Customizing navigation arrows */
+.carousel .control-arrow {
+background: rgba(0, 0, 0, 10); /* Change arrow background */
+border-radius: 50%; /* Make arrows circular */
+}
+
+/* Customizing dots */
+.carousel .control-dots .dot {
+background: #ffffff; /* Dot color */
+}
+
+.carousel .control-dots .dot.selected {
+background: #ff0000; /* Active dot color */
+}
+.single-slide{
+    width:100%;
+    height: 100vh;
+}
+.single-slide img{
+    width:100%;
+    max-height: 100vh;
+}
+.caption{
+    position: absolute;
+    top:0;
+    left:0;
+    width:100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;   
+}
+
+  
